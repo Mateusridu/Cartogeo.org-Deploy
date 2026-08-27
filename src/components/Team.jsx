@@ -43,7 +43,7 @@ export default function Team() {
       </div>
 
       <Link
-        to="/time"
+        to="https://www.gilbertosind.org/quem-somos"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça o time

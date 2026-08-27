@@ -25,7 +25,7 @@ export default function ProjectSpotlight() {
              do Complexo Industrial e Portuário do Açu (CIPA) sobre os ambientes costeiros no norte fluminense.
           </p>
         <Link
-          to="/projetos"
+          to="https://www.gilbertosind.org/projetos"
           className="mt-7 inline-flex items-center gap-2 rounded-md border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-white/60"
         >
           Ver todos os projetos

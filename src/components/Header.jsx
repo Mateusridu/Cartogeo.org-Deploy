@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 const NAV_LINKS = [
-  { label: "Empresa", href:"" },
-  { label: "Serviços", href: "" },
-  { label: "Parceiros", href: "" },
-  { label: "Projetos", href: "" },
-  { label: "Blog", href: "" },
+  { label: "Empresa", href:"https://www.gilbertosind.org/" },
+  { label: "Serviços", href: "https://www.gilbertosind.org/servicos" },
+  { label: "Parceiros", href: "https://www.gilbertosind.org/apoios-parcerias" },
+  { label: "Projetos", href: "https://www.gilbertosind.org/projetos" },
+  { label: "Blog", href: "https://www.gilbertosind.org/" },
 ];
 
 export default function Header() {

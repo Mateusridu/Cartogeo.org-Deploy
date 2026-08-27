@@ -12,7 +12,7 @@ const items = [
     details: [
       "Definição de limites territoriais marítimos com amparo legal, até às 200 milhas náuticas, para a justa redistribuição de royalties de petróleo e gás natural entre municípios e estados.",
     ],
-    link: "/servicos#mapeamentodeauguasterritorias",
+    link: "https://www.gilbertosind.org/",
   },
   {
     id: "02",
@@ -23,7 +23,7 @@ const items = [
     details: [
       "Laudos e perícias em geociências, engenharias e meio ambiente para tribunais de justiça e câmaras de arbitragem, com fundamentação científica e conformidade legal.",
     ],
-    link: "/servicos#periciatecnicaegeodesicas",
+    link: "https://www.gilbertosind.org/",
   },
   {
     id: "03",
@@ -34,7 +34,7 @@ const items = [
     details: [
       "Plantas, cartas e mapas temáticos produzidos em sistemas SIG especializados, em escalas variadas, para projetos ambientais, urbanos, de saneamento e de energias renováveis.",
     ],
-    link: "/servicos#cartografiaemapeamentodigital",
+    link: "https://www.gilbertosind.org/",
   },
   {
     id: "04",
@@ -45,7 +45,7 @@ const items = [
     details: [
       " Levantamentos geodésicos com receptor GNSS de dupla frequência e mapeamento aéreo com drone, gerando bases cartográficas precisas para engenharia, infraestrutura e regularização fundiária.",
     ],
-    link: "/servicos#sensoriamnetoremoto",
+    link: "https://www.gilbertosind.org/",
   },
   {
     id: "05",
@@ -56,7 +56,7 @@ const items = [
     details: [
       " Georreferenciamento e cadastro territorial em conformidade com a legislação, para órgãos públicos, empresas e proprietários — incluindo REURB e demarcação de territórios quilombolas e indígenas.",
     ],
-    link: "/servicos#regularizaçãofundiaria",
+    link: "https://www.gilbertosind.org/",
   },
   {
     id: "06",
@@ -67,7 +67,7 @@ const items = [
     details: [
       " Levantamentos topográficos e geodésicos de alta precisão para obras e infraestrutura: controle de recalque, auscultação de barragens, instalações industriais, PCH, usinas solares e parques eólicos.",
     ],
-    link: "/servicos#engenhariacivil",
+    link: "https://www.gilbertosind.org/",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function Intro() {
       </p>
 
       <Link
-        to="/geoserviçoseducacionais"
+        to="https://www.gilbertosind.org/"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Geoserviços educacionais

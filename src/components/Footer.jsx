@@ -6,15 +6,15 @@ const COLUMNS = [
   {
     title: "Empresa",
     links: [
-      { label: "Sobre", href: "" },
+      { label: "Sobre", href: "https://www.gilbertosind.org/" },
       { label: "Carreiras", href: "#" },
     ],
   },
   {
     title: "Navegação",
     links: [
-      { label: "Serviços", href: "" },
-      { label: "Parceiros", href: "" },
+      { label: "Serviços", href: "https://www.gilbertosind.org/servicos" },
+      { label: "Parceiros", href: "https://www.gilbertosind.org/apoios-parcerias" },
       { label: "Contato", href: "" },
     ],
   },

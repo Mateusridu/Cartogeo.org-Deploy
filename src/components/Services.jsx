@@ -54,7 +54,7 @@ export default function Services() {
       </div>
       
       <Link
-        to="/servicos"
+        to="https://www.gilbertosind.org/projetos"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça nossos projetos
