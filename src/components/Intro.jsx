@@ -92,7 +92,7 @@ export default function Intro() {
       </p>
 
       <Link
-        to="https://www.gilbertosind.org/consultoria-especializada"
+        to="https://www.gilbertosind.org/geoservicos-educacionais"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Geoserviços educacionais
