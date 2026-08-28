@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { label: "Serviços", href: "https://www.gilbertosind.org/servicos" },
   { label: "Parceiros", href: "https://www.gilbertosind.org/apoios-parcerias" },
   { label: "Projetos", href: "https://www.gilbertosind.org/projetos" },
-  { label: "Blog", href: "https://www.gilbertosind.org/" },
+  { label: "Blog", href: "https://www.gilbertosind.org/noticias" },
 ];
 
 export default function Header() {

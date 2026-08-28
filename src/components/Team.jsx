@@ -17,7 +17,7 @@ export default function Team() {
         a engenharia, a regularização fundiária e o desenvolvimento sustentável, do litoral ao interior do Brasil.
       </p>
       <Link
-        to="/time"
+        to="https://www.gilbertosind.org/quem-somos"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça nossa história
