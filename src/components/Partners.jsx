@@ -11,25 +11,30 @@ const PARTNERS = [
     logo: logoNupec,
     name: "NUPEC",
     fullName: "Núcleo Universitário de Pesquisas, Estudos e Consultoria",
+    url: "http://www.nupec.org/",
   },
   {
     logo: logoCepeg,
     name: "CEPEG",
     fullName: "Centro de Meio Ambiente, Energia, Petróleo e Gás Natural",
+    url: "https://cepeg.org/",
   },
   {
     logo: logoLpsau,
     name: "LPSAU",
     fullName: "Laboratório de Pesquisa em Sistemas Ambientais Urbanos",
+    url: "https://www.ct.ufpb.br/lpsau/",
   },
   {
     logo: logoIds,
     name: "IDS",
     fullName: "Innovation Development Services",
+    url: "https://idscontadores.com.br/",
   },
   {
     logo: logoGeoOne,
     name: "GeoOne",
+    url: "https://geoone.com.br/",
   },
 ];
 
