@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Eyebrow from "./Eyebrow";
 import ceoPhoto from "../assets/ceo-gilberto.webp";
 
@@ -16,15 +15,17 @@ export default function Team() {
         Mais do que entregar mapas, entregamos respostas: soluções cartográficas juridicamente fundamentadas que apoiam a gestão territorial,
         a engenharia, a regularização fundiária e o desenvolvimento sustentável, do litoral ao interior do Brasil.
       </p>
-      <Link
-        to="https://www.gilbertosind.org/quem-somos"
+      <a
+        href="https://www.gilbertosind.org/quem-somos"
+        target="_blank"
+        rel="noopener noreferrer"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça nossa história
         <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </Link>
+      </a>
 
       <div className="mt-12 grid gap-10 rounded-xl border border-line bg-white p-8 sm:grid-cols-[auto,1fr] sm:items-center sm:p-10">
         <img
@@ -42,15 +43,15 @@ export default function Team() {
         </div>
       </div>
 
-      <Link
-        to="/cartogeo/#time"
+      <a
+        href="/cartogeo/#time"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça o time
         <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </Link>
+      </a>
     </section>
   );
 }

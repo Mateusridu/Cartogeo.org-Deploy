@@ -53,15 +53,15 @@ export default function Services() {
         ))}
       </div>
       
-      <Link
-        to="https://www.gilbertosind.org/projetos"
+      <a
+        href="/cartogeo/#projetos"
         className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-beacon hover:underline"
       >
         Conheça nossos projetos
         <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </Link>
+      </a>
     </section>
   );
 }

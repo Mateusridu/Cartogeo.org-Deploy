@@ -24,15 +24,15 @@ export default function ProjectSpotlight() {
             Complexo Industrial e Portuário do Açu. Mapeamento digital da planície Quaternária do rio Paraíba do Sul e efeitos do empreendimento
              do Complexo Industrial e Portuário do Açu (CIPA) sobre os ambientes costeiros no norte fluminense.
           </p>
-        <Link
-          to="https://www.gilbertosind.org/projetos"
+        <a
+          href="/cartogeo/#projetos"
           className="mt-7 inline-flex items-center gap-2 rounded-md border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-white/60"
         >
           Ver todos os projetos
           <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
             <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-        </Link>
+        </a>
         </div>
 
         {/* Placeholder visual — substitua por um mockup/captura do projeto */}
