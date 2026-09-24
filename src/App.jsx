@@ -16,6 +16,8 @@ import ProjectsPage from "./components/ProjectsPage";
 import BlogPage from "./components/BlogPage";
 import ScrollToTop from "./components/ScrollToTop";
 import VideSection from "./components/VideoSection";
+import CodeofPractice from "./components/CodeofPractice";
+import PrivacyStatement from "./components/PrivacyStatement";
 
 function Home() {
   return (
@@ -48,6 +50,8 @@ export default function App() {
           <Route path="/servicos" element={<ServicesPage />} />
           <Route path="/projetos" element={<ProjectsPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/codigodeconduta" element={<CodeofPractice />} />
+          <Route path="/politicadeprivacidade" element={<PrivacyStatement/>} />
         </Routes>
       </main>
       <Footer />

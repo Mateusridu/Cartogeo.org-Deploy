@@ -3,9 +3,10 @@ import { useLocation } from "react-router-dom";
 
 const NAV_LINKS = [
   { label: "Empresa", href:"https://www.gilbertosind.org/" },
+  { label: "Time", href:"/cartogeo/#time" },
   { label: "Serviços", href: "https://www.gilbertosind.org/servicos" },
   { label: "Parceiros", href: "https://www.gilbertosind.org/apoios-parcerias" },
-  { label: "Projetos", href: "https://www.gilbertosind.org/projetos" },
+  { label: "Projetos", href: "/cartogeo/#projetos" },
   { label: "Blog", href: "https://www.gilbertosind.org/noticias" },
 ];
 

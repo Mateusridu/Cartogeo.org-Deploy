@@ -6,23 +6,23 @@ const COLUMNS = [
   {
     title: "Empresa",
     links: [
-      { label: "Sobre", href: "https://www.gilbertosind.org/" },
+      { label: "Sobre", href: "#empresa" },
       { label: "Carreiras", href: "#" },
     ],
   },
   {
     title: "Navegação",
     links: [
-      { label: "Serviços", href: "https://www.gilbertosind.org/servicos" },
-      { label: "Parceiros", href: "https://www.gilbertosind.org/apoios-parcerias" },
-      { label: "Contato", href: "" },
+      { label: "Serviços", href: "#servicos" },
+      { label: "Parceiros", href: "#parceiros" },
+      { label: "Contato", href: "#contato" },
     ],
   },
   {
     title: "Legal",
     links: [
-      { label: "Política de Privacidade", href: "#" },
-      { label: "Código de Conduta", href: "#" },
+      { label: "Política de Privacidade", href: "/cartogeo/#politicadeprivacidade" },
+      { label: "Código de Ética e Conduta", href: "/cartogeo/#codigodeconduta" },
     ],
   },
 ];
@@ -167,11 +167,34 @@ export default function Footer() {
           </p>
           <MapContact />
           <div className="mt-6 flex gap-4">
-            <a href="#" aria-label="LinkedIn" className="text-white/60 hover:text-white">
-              in
+            <a
+              href="https://br.linkedin.com/company/cartogeo-org?trk=public_post_follow-view-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="opacity-60 hover:opacity-100 transition-opacity"
+            >
+              <img src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/linkedin-48.svg`} alt="LinkedIn" width="20" height="20" />
             </a>
-            <a href="#" aria-label="Instagram" className="text-white/60 hover:text-white">
-              ig
+
+            <a
+              href="https://www.instagram.com/cartogeo_org?stkn=MW80bjUxb2x6cm1tZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="opacity-60 hover:opacity-100 transition-opacity"
+            >
+              <img src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/instagram-48.svg`} alt="Instagram" width="20" height="20" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@cartogeo_org"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="opacity-60 hover:opacity-100 transition-opacity"
+            >
+              <img src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/youtube-48.svg`} alt="YouTube" width="20" height="20" />
             </a>
           </div>
         </div>
