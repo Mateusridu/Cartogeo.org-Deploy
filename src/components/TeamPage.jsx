@@ -54,51 +54,52 @@ import vinicius from "../assets/team/Vinnícius_Dionísio.webp";
 
 
 const TEAM = [
-  { name: "Dr. Gilberto Pessanha Ribeiro", role: "Fundador(a) & CEO", image: gilberto },
-  { name: "Abraão Nóbrega", role: "", image: abraao },
-  { name: "André Victor", role: "", image: andre },
-  { name: "Anthony", role: "", image: anthony },
-  { name: "Bruno Xavier", role: "", image: bruno },
-  { name: "Carolina Clemens", role: "", image: carolinac },
-  { name: "Carolina Ferreira", role: "", image: carolinaf },
-  { name: "Carolina Galvanese", role: "", image: carolinag },
-  { name: "Cecília Alarsa", role: "", image: cecilia },
-  { name: "Cícero Ramos", role: "", image: cicero },
-  { name: "Cinthia", role: "", image: cinthia },
-  { name: "Cristiane Magalhaes", role: "", image: cristiane },
-  { name: "Dária Cardoso", role: "", image: daria },
-  { name: "Douglas Schimatto", role: "", image: douglas },
-  { name: "Fabiana", role: "", image: fabiana },
-  { name: "Fernando Henrique Mamédio", role: "", image: fernando },
-  { name: "Flavia Piovani", role: "", image: flavia },
-  { name: "Giselly", role: "", image: giselly },
-  { name: "Guilherme Brito", role: "", image: guilherme },
-  { name: "Igor Teixeira", role: "", image: igor },
-  { name: "Irineu dos Santos", role: "", image: irineu },
-  { name: "Isabela Cavalcanti Martins", role: "", image: isabelac },
-  { name: "Isabela Nogueira", role: "", image: isabelan },
-  { name: "Isabela Nogueira da Silva", role: "", image: isabelas },
-  { name: "Jhonnes Alberto Vaz", role: "", image: jhonnes },
-  { name: "José Luiz da Silva Neto", role: "", image: jose },
-  { name: "Leandro Viana", role: "", image: leandro },
-  { name: "Manoel Luis", role: "", image: manoel },
-  { name: "Maria Beatriz Pizzo", role: "", image: mariab },
-  { name: "Maria de Oliveira", role: "", image: mariao },
-  { name: "Maria Rosane Ribeiro", role: "", image: mariar },
-  { name: "Mariana Penido", role: "", image: mariana },
-  { name: "Mateus Duarte", role: "", image: mateus },
-  { name: "Mateus Sampaio", role: "", image: mateuss },
-  { name: "Matheus Martins", role: "", image: matheus },
-  { name: "Osmane Ribeiro", role: "", image: osmane },
-  { name: "Paulo Rodrigo", role: "", image: paulo },
-  { name: "Pedro Henrique Silva", role: "", image: pedroh },
-  { name: "Pedro Ivo Valdez", role: "", image: pedroi },
-  { name: "Sandoval Amparo", role: "", image: sandoval },
-  { name: "Sérgio Botton", role: "", image: sergio },
-  { name: "Uendry Maia", role: "", image: uendri },
-  { name: "Veronica", role: "", image: veronica },
-  { name: "Vinnícius Dionísio", role: "", image: vinicius },
+  { name: "Dr. Gilberto Pessanha Ribeiro", role: "Fundador & CEO", image: gilberto, linkedin: "" },
+  { name: "Abraão Nóbrega", role: "Arquiteto e Urbanista", image: abraao, linkedin: "https://www.linkedin.com/in/abra%C3%A3o-n%C3%B3brega-2032a9321/" },
+  { name: "André Victor Barcia", role: "Geógrafo", image: andre, linkedin: "https://www.linkedin.com/in/andrevictorbarcia/" },
+  { name: "Anthony Andrey Ramalho", role: "Engenheiro de Petróleo", image: anthony, linkedin: "" },
+  { name: "Bruno Xavier", role: "Biólogo", image: bruno, linkedin: "https://www.linkedin.com/in/bruno-xavier-88971a237/" },
+  { name: "Carolina Clemens", role: "Internacionalista", image: carolinac, linkedin: "https://www.linkedin.com/in/carolina-clemens/" },
+  { name: "Carolina Ferreira", role: "Engenheira Ambiental e Sanitarista", image: carolinaf, linkedin: "https://www.linkedin.com/in/carolinaferreirapenteado/" },
+  { name: "Carolina Galvanese", role: "Advogada", image: carolinag, linkedin: "https://www.linkedin.com/in/carolina-galvanese-phd-6a2207167/" },
+  { name: "Cecília Alarsa", role: "Geógrafa", image: cecilia, linkedin: "https://www.linkedin.com/in/cecilia-alarsa/" },
+  { name: "Cícero Ramos", role: "Técnico de Logística e Operador de Drone", image: cicero, linkedin: "https://www.linkedin.com/in/c%C3%ADcero-ramos-a9b225158/" },
+  { name: "Cinthia Fernandes", role: "Advogada", image: cinthia, linkedin: "https://www.linkedin.com/in/cinthia-fernandes-746430b2/" },
+  { name: "Cristiane Magalhães", role: "Arquiteta e Urbanista", image: cristiane, linkedin: "https://www.linkedin.com/in/cristianemagalhaes/" },
+  { name: "Dária Cardoso", role: "Geógrafa", image: daria, linkedin: "https://www.linkedin.com/in/daria-cardoso-18112155/" },
+  { name: "Douglas Schimatto", role: "Jornalista/Repórter Fotográfico", image: douglas, linkedin: "https://www.linkedin.com/in/douglas-schinatto/" },
+  { name: "Fabiana Martins", role: "Arquiteta e Urbanista", image: fabiana, linkedin: "https://www.linkedin.com/in/fabianamartinsarq/" },
+  { name: "Fernando Henrique Mamédio", role: "Cientista Social", image: fernando, linkedin: "https://www.linkedin.com/in/fernandomamedio/" },
+  { name: "Flavia Piovani", role: "Engenheira Cartógrafa", image: flavia, linkedin: "https://www.linkedin.com/in/flavia-piovani-61748734/" },
+  { name: "Giselly Larissa Santos", role: "Estagiária de Engenharia Ambiental", image: giselly, linkedin: "" },
+  { name: "Guilherme Brito", role: "Engenheiro Cartógrafo", image: guilherme, linkedin: "https://www.linkedin.com/in/guilherme-brito-13392947/" },
+  { name: "Igor Teixeira", role: "Arqueólogo", image: igor, linkedin: "https://www.linkedin.com/in/igor-teixeira-8a904621b/" },
+  { name: "Irineu Santos", role: "Contador", image: irineu, linkedin: "https://www.linkedin.com/company/idscontadores/posts/" },
+  { name: "Isabela Martins", role: "Assessora Comercial", image: isabelac, linkedin: "https://www.linkedin.com/in/isabela-cavalcanti-martins-a934921a5/" },
+  { name: "Isabela Nogueira", role: "Cientista de Dados", image: isabelan, linkedin: "https://www.linkedin.com/in/isabela-nogueira/" },
+  { name: "Isabela Nogueira da Silva", role: "Engenheira Cartógrafo", image: isabelas, linkedin: "https://www.linkedin.com/in/jhonnes-alberto-vaz-20118925/" },
+  { name: "Jhonnes Alberto Vaz", role: "Engenheiro Cartógrafo", image: jhonnes, linkedin: "" },
+  { name: "José Luiz Neto", role: "Geógrafo", image: jose, linkedin: "https://www.linkedin.com/in/jos%C3%A9-luiz-da-silva-neto-758a6a309/" },
+  { name: "Leandro Viana", role: "Psicólogo", image: leandro, linkedin: "https://www.linkedin.com/in/leandro-viana-a432b2211/" },
+  { name: "Manoel Luis", role: "Geógrafo", image: manoel, linkedin: "https://www.linkedin.com/in/manoeluisgeotec/" },
+  { name: "Maria Beatriz Pizzo", role: "", image: mariab, linkedin: "" },
+  { name: "Maria de Oliveira", role: "Geógrafa", image: mariao, linkedin: "" },
+  { name: "Maria Rosane Ribeiro", role: "Pedagoga", image: mariar, linkedin: "" },
+  { name: "Mariana Penido", role: "Estrategista de Marketing", image: mariana, linkedin: "https://www.linkedin.com/in/mariana-penido/" },
+  { name: "Mateus Duarte", role: "Especialista em TI", image: mateus, linkedin: "" },
+  { name: "Mateus Sampaio", role: "Geógrafo", image: mateuss, linkedin: "https://www.linkedin.com/in/mateus-sampaio-7bb35398/" },
+  { name: "Matheus Martins", role: "Geógrafo", image: matheus, linkedin: "https://www.linkedin.com/in/matheus-martins-andrade7/" },
+  { name: "Osmane Ribeiro", role: "Engenheiro Florestal", image: osmane, linkedin: "https://www.linkedin.com/in/osmane-ribeiro-bb26b417b/" },
+  { name: "Paulo Rodrigo", role: "Historiador", image: paulo, linkedin: "https://www.linkedin.com/in/paulorodrigosimoes/" },
+  { name: "Pedro Henrique Silva", role: "Geógrafo", image: pedroh, linkedin: "" },
+  { name: "Pedro Ivo Valdez", role: "Admistrador", image: pedroi, linkedin: "https://www.linkedin.com/in/pedro-ribeiro-72a6b5221/" },
+  { name: "Sandoval Amparo", role: "Geógrafo", image: sandoval, linkedin: "https://www.linkedin.com/in/sandoval-amparo-74812171/" },
+  { name: "Sérgio Botton", role: "Cientista Social", image: sergio, linkedin: "https://www.linkedin.com/in/s%C3%A9rgio-botton-barcellos-961787303/" },
+  { name: "Uendry Maia", role: "Assessor Comercial", image: uendri, linkedin: "https://www.linkedin.com/in/uendry/" },
+  { name: "Verioní Bastos", role: "Historiadora", image: veronica, linkedin: "https://www.linkedin.com/in/verion%C3%AD-r-bastos-357bb690/?locale=pt" },
+  { name: "Vinnícius Dionízio", role: "Geógrafo", image: vinicius, linkedin: "https://www.linkedin.com/in/vinn%C3%ADcius-dion%C3%ADzio/" },
 ];
+
 
 export default function TeamPage() {
   return (
@@ -111,9 +112,9 @@ export default function TeamPage() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-slate">
-          A cartogeo nasceu para aproximar tecnologia geoespacial de quem toma
+          A CartoGeo nasceu para aproximar tecnologia geoespacial de quem toma
           decisão todos os dias. Cada pessoa do time traz uma combinação
-          diferente de cartografia, dados e engenharia — e é dessa mistura que
+          diferente de Cartografia, dados e Engenharia — e é dessa mistura que
           nascem as soluções que construímos junto com nossos clientes.
         </p>
       </section>
@@ -138,7 +139,18 @@ export default function TeamPage() {
                 />
               )}
               <div>
-                <p className="font-semibold text-ink">{person.name}</p>
+                {person.linkedin ? (
+                  
+                    <a href={person.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-ink hover:text-beacon hover:underline"
+                  >
+                    {person.name}
+                  </a>
+                ) : (
+                  <p className="font-semibold text-ink">{person.name}</p>
+                )}
                 <p className="text-sm text-slate">{person.role}</p>
               </div>
             </div>
@@ -157,12 +169,12 @@ export default function TeamPage() {
             Se você se interessa por tecnologia geoespacial e quer construir
             soluções que realmente são usadas, queremos te conhecer.
           </p>
-          <a
+          
             href="https://wa.me/5583988016010?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20cartogeo%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-md bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-beacon"
-          >
+          <a>
             Fale com a gente
             <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
               <path
