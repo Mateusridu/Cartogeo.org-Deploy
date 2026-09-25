@@ -169,12 +169,12 @@ export default function TeamPage() {
             Se você se interessa por tecnologia geoespacial e quer construir
             soluções que realmente são usadas, queremos te conhecer.
           </p>
-          
+          <a
             href="https://wa.me/5583988016010?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20cartogeo%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-md bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-beacon"
-          <a>
+          >
             Fale com a gente
             <svg viewBox="0 0 16 16" className="h-4 w-4" fill="none" aria-hidden="true">
               <path
