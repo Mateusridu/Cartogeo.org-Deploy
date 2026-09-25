@@ -26,7 +26,9 @@ import isabelac from "../assets/team/Isabela_Cavalcanti_Martins.webp";
 import isabelan from "../assets/team/Isabela_Nogueira.webp";
 import isabelas from "../assets/team/Isabela_Nogueira_da_Silva.webp";
 import jhonnes from "../assets/team/Jhonnes_Alberto_Vaz.webp";
+import joao from "../assets/team/João_Ruben_Ramos_Leite.webp";
 import jose from "../assets/team/José_Luiz_da_Silva_Neto.webp";
+import johanssen from "../assets/team/Johanssen_Lobo.webp";
 import leandro from "../assets/team/Leandro_Viana.webp";
 import manoel from "../assets/team/Manoel_Luis.webp";
 import mariab from "../assets/team/Maria_Beatriz_Pizzo.webp";
@@ -54,7 +56,7 @@ import vinicius from "../assets/team/Vinnícius_Dionísio.webp";
 
 
 const TEAM = [
-  { name: "Dr. Gilberto Pessanha Ribeiro", role: "Fundador & CEO", image: gilberto, linkedin: "" },
+  { name: "Dr. Gilberto Pessanha Ribeiro", role: "Fundador & CEO", image: gilberto, linkedin: "https://www.linkedin.com/in/gilberto-pessanha-ribeiro-42a189264/" },
   { name: "Abraão Nóbrega", role: "Arquiteto e Urbanista", image: abraao, linkedin: "https://www.linkedin.com/in/abra%C3%A3o-n%C3%B3brega-2032a9321/" },
   { name: "André Victor Barcia", role: "Geógrafo", image: andre, linkedin: "https://www.linkedin.com/in/andrevictorbarcia/" },
   { name: "Anthony Andrey Ramalho", role: "Engenheiro de Petróleo", image: anthony, linkedin: "" },
@@ -78,11 +80,13 @@ const TEAM = [
   { name: "Isabela Martins", role: "Assessora Comercial", image: isabelac, linkedin: "https://www.linkedin.com/in/isabela-cavalcanti-martins-a934921a5/" },
   { name: "Isabela Nogueira", role: "Cientista de Dados", image: isabelan, linkedin: "https://www.linkedin.com/in/isabela-nogueira/" },
   { name: "Isabela Nogueira da Silva", role: "Engenheira Cartógrafo", image: isabelas, linkedin: "https://www.linkedin.com/in/jhonnes-alberto-vaz-20118925/" },
+  { name: "João Ruben Ramos Leite", role: "Engenheiro Civil", image: joao, linkedin: "www.linkedin.com/in/joao-leite-a84b6a380" },
   { name: "Jhonnes Alberto Vaz", role: "Engenheiro Cartógrafo", image: jhonnes, linkedin: "" },
   { name: "José Luiz Neto", role: "Geógrafo", image: jose, linkedin: "https://www.linkedin.com/in/jos%C3%A9-luiz-da-silva-neto-758a6a309/" },
+  { name: "Johanssen Lobo", role: "Engenheiro Cartógrafo", image: johanssen, linkedin: "https://www.linkedin.com/in/johanssen-lobo-6285ab1b7/" },
   { name: "Leandro Viana", role: "Psicólogo", image: leandro, linkedin: "https://www.linkedin.com/in/leandro-viana-a432b2211/" },
   { name: "Manoel Luis", role: "Geógrafo", image: manoel, linkedin: "https://www.linkedin.com/in/manoeluisgeotec/" },
-  { name: "Maria Beatriz Pizzo", role: "", image: mariab, linkedin: "" },
+  { name: "Maria Beatriz Pizzo", role: "Bióloga", image: mariab, linkedin: "https://www.linkedin.com/in/maria-beatriz-fagundes-gov%C3%AAa-pizzo-3052021a2/" },
   { name: "Maria de Oliveira", role: "Geógrafa", image: mariao, linkedin: "" },
   { name: "Maria Rosane Ribeiro", role: "Pedagoga", image: mariar, linkedin: "" },
   { name: "Mariana Penido", role: "Estrategista de Marketing", image: mariana, linkedin: "https://www.linkedin.com/in/mariana-penido/" },
