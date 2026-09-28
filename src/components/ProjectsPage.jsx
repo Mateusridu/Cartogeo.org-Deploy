@@ -32,6 +32,7 @@ import portodoacu from "../assets/project/Porto_do_Acu.webp";
 import enseadabaleia from "../assets/project/Enseada_da_Baleia_Cananeia_SP.webp";
 import oleo from "../assets/project/Oil.webp";
 import fape from "../assets/project/FAPERJ_FAPESP.webp";
+import indios from "../assets/project/indios.webp";
 
 
 const PROJECTS = [
@@ -281,7 +282,7 @@ const PROJECTS = [
   },
   {
     slug:"regularizacao-fundiaria",
-    title: "Inovação em processos de produção cartográfica e no uso dos produtos gerados",
+    title: "Mapeamento de territórios de comunidades tradicionais",
     description:
       "Elaboração e desenvolvimento de projetos de regularização fundiária no alto sertão nordestino, incluindo territórios de comunidades tradicionais quilombolas, com base na legislação ambiental e na função social da propriedade, nos eixos urbano e rural, com georreferenciamento de imóveis. Processamento de imagens LANDSAT 8 no sistema SPRING. Iniciativa de Fernando H. P. Mamédio e Gilberto P. Ribeiro, com colaboração de Verioní R. Bastos.",
     bullets: [
@@ -299,7 +300,7 @@ const PROJECTS = [
       "Plano e Planejamento Urbanos",
       "Localização e Indicação Geográficas",
     ],
-    image: landsat,
+    image: indios,
   },
   {
     slug:"projetos-urbanisticos",
