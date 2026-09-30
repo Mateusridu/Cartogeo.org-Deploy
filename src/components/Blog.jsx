@@ -36,7 +36,7 @@ export default function Blog() {
           <Eyebrow label="Últimos posts" code="" />
           <h2 className="font-display text-3xl font-semibold text-ink sm:text-4xl">Conteúdo</h2>
         </div>
-        <Link to="/blog" className="text-sm font-semibold text-beacon hover:underline">
+        <Link to="/" className="text-sm font-semibold text-beacon hover:underline">
           Ver todos os posts
         </Link>
       </div>
