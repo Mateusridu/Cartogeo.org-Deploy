@@ -34,7 +34,7 @@ import manoel from "../assets/team/Manoel_Luis.webp";
 import mariab from "../assets/team/Maria_Beatriz_Pizzo.webp";
 import mariao from "../assets/team/Maria_de_Oliveira.webp";
 import mariar from "../assets/team/Maria_Rosane_Ribeiro.webp";
-import mariana from "../assets/team/Mariana_Penido.webp";
+ //import mariana from "../assets/team/Mariana_Penido.webp";
 import mateus from "../assets/team/Mateus_Duarte.webp";
 import mateuss from "../assets/team/Mateus_Sampaio.webp";
 import matheus from "../assets/team/Matheus_Martins.webp";
@@ -88,7 +88,7 @@ const TEAM = [
   { name: "Maria Beatriz Pizzo", role: "Bióloga", image: mariab, linkedin: "https://www.linkedin.com/in/maria-beatriz-fagundes-gov%C3%AAa-pizzo-3052021a2/" },
   { name: "Maria de Oliveira", role: "Geógrafa", image: mariao, linkedin: "https://www.linkedin.com/in/maria-aparecida-de-oliveira-29726850/" },
   { name: "Maria Rosane Ribeiro", role: "Pedagoga", image: mariar, linkedin: "https://www.linkedin.com/in/rosane-pessanha/" },
-  { name: "Mariana Penido", role: "Estrategista de Marketing", image: mariana, linkedin: "https://www.linkedin.com/in/mariana-penido/" },
+  //{ name: "Mariana Penido", role: "Estrategista de Marketing", image: mariana, linkedin: "https://www.linkedin.com/in/mariana-penido/" },
   { name: "Mateus Duarte", role: "Assessor de TI", image: mateus, linkedin: "" },
   { name: "Mateus Sampaio", role: "Geógrafo", image: mateuss, linkedin: "https://www.linkedin.com/in/mateus-sampaio-7bb35398/" },
   { name: "Matheus Martins", role: "Geógrafo", image: matheus, linkedin: "https://www.linkedin.com/in/matheus-martins-andrade7/" },
